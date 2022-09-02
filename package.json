@@ -1,0 +1,24 @@
+{
+  "name": "@satachito/jp-formula",
+  "version": "1.0.0",
+  "description": "Formula input WebComponents",
+  "main": "_.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satachito/jp-formula.git"
+  },
+  "keywords": [
+    "SliP",
+    "Formula",
+    "WebComponents"
+  ],
+  "author": "Satoru Ogura <satoru.ogura@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Satachito/jp-formula/issues"
+  },
+  "homepage": "https://github.com/Satachito/jp-formula#readme",
+  "dependencies": {
+    "@satachito/slip": "^1.0.0"
+  }
+}
