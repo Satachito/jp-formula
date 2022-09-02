@@ -1,16 +1,3 @@
-# jp-formula
-
-Have you ever wanted to let users enter mathematical formulas? This WebComponent is for that purpose.
-
-Other than that, this WebComponent can let you input functions or call functions.
-
-# Demo
-
-https://satachito.github.io/jp-formula/
-
-# Usage
-
-```
 <style>
 jp-formula > input {
 ;	border:	1px solid red
@@ -31,7 +18,7 @@ FUNCTION: @ means argument<br>
 
 <script type=module>
 
-import './node_module/@satachito/jp-formula/_.js'
+import './_.js'
 
 FORMULA.value = '2 * ( 3 + 4 ) / 5'
 EVAL.onclick = _ => alert( FORMULA.Eval() )
@@ -40,4 +27,3 @@ FUNCTION.value = '@ * 2'
 APPLY.onclick = _ => alert( FUNCTION.Apply( Number( ARGUMENT.value ) ) )
 
 </script>
-```
