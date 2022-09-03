@@ -1,6 +1,6 @@
 {
   "name": "@satachito/jp-formula",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Formula input WebComponents",
   "main": "_.js",
   "repository": {
