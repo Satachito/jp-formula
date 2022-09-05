@@ -1,4 +1,4 @@
-import { NewContext, Eval, Sugared } from './node_modules/@satachito/slip/_.js'
+import { NewContext, Eval, Sugared } from './SliP.js'
 
 customElements.define(
 	'jp-formula'
