@@ -48,7 +48,7 @@ EVAL.onclick = _ => {
 	try {
 		RESULT_FORMULA.textContent = FORMULA.Eval()
 	} catch ( ex ) {
-		alert( 'Not a valid formula' + ex )
+		alert( 'Not a valid formula\n' + ex.join( '\n' ) )
 	}
 }
 
@@ -57,7 +57,7 @@ APPLY.onclick = _ => {
 	try {
 		RESULT_FUNCTION.textContent = FUNCTION.Apply( Number( ARGUMENT.value ) )
 	} catch ( ex ) {
-		alert( 'Not a valid formula' + ex )
+		alert( 'Not a valid formula\n' + ex.join( '\n' ) )
 	}
 }
 
@@ -66,7 +66,7 @@ EVAL_X.onclick = _ => {
 	try {
 		RESULT_FORMULA_X.textContent = FORMULA_X.Eval()
 	} catch ( ex ) {
-		alert( 'Not a valid formula\n' + ex )
+		alert( 'Not a valid formula\n' + ex.join( '\n' ) )
 	}
 }
 
