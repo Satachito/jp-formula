@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Satachito/jp-formula#readme",
   "dependencies": {
-    "@satachito/slip": "^1.0.2"
+    "@satachito/slip": "^1.0.3"
   }
 }
